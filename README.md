@@ -35,6 +35,6 @@ Below are the steps that needs to be followed:
     - Add build step: Execute SonarQube Scanner: select the SonarQube Installation = SonarQube_test_instance, Task to run = scan, Path to           project properties = sonar-project.properties (see the sonar-project.properties file under this repo)
            Analysis properties = 
                 sonar.github.pullRequest=${ghprbPullId}
-                sonar.github.oauth= 4c879897f0ca82ce3f991b513dd1784a2698f43f 
+                sonar.github.oauth= <generated from SonarQube server account section> 
             Additional arguments = -X
     - 
